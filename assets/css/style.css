@@ -117,13 +117,14 @@ body {
 .timeline_intems{
     font-size: 20px;
     line-height: 28px;
+    padding: 0;
 }
 
 .timeline_claro, 
 .timeline_escuro{
     border-radius: 10px;
     padding: 10px;
-    list-style:disc;
+    list-style:none;
     margin-bottom: 20px;
 }
 
