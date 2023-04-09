@@ -2,6 +2,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+b{
+    color: #202020;
+}
+
 body {
     margin:0;
     padding: 0;
@@ -23,11 +27,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-.cabecalho_text{
-    margin-left: 50px;
-}
-
 .title{
     font-size: 70px;
     text-align: center;
@@ -40,6 +39,7 @@ body {
     text-align: center;
     margin: 0%;
     font-weight: bold;
+    color: #202020;
 }
 
 .texto_corrido{
@@ -60,18 +60,21 @@ body {
     align-items: center;
     align-content: space-between;
     background-color: #202020;
-    height: 80px;
 }
 
 .navegacao_bottons{
-    display: contents;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 
 .link_navegacao{
     text-decoration: none;
     list-style-type: none;
+    font-weight: bold;
     color: #ffffff;
     font-size: 20px;
     padding: 30px;
@@ -93,7 +96,7 @@ body {
 .galeria_img{
     width: 30%;
     min-width: 150px;
-    border: #000000 solid 10px;
+    border: #202020 solid 10px;
 }
 
 .section_title{
@@ -103,6 +106,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 30px;
+    color: #202020;
 }
 
 #timeline{
@@ -149,7 +153,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    background-color: #202020;
     height: 115px;
 }
 
@@ -171,7 +175,7 @@ body {
 
 @media (max-width:982px) {
 .imagem_principal{
-    border-top: #000000 solid 10px;
+    border-top: #202020 solid 10px;
     margin-top: 20px;
 }
     
